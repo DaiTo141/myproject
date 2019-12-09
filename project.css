@@ -1,0 +1,74 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#EEEEEE;
+}
+#mainDiv{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+#NguoiChoiCoDen{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+#divBanCo{
+	padding-top: 5px;
+	float:left;
+	width: 50%;
+	height: 100%;
+}
+#BanCo{
+	margin:auto;
+	height: 600px;
+	width: 600px;
+}
+
+#BanCo td {
+	height: 70px;
+	width: 70px;
+	border-collapse:collapse;
+	border: 2px solid #3399CC;
+}
+
+#BanCo td:hover {
+  border-collapse: collapse;
+  border: 1px solid #FFFF33;
+}
+#NguoiChoiCoDo{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+img
+{
+	display: block;
+    margin: 0 auto;
+}
+#tblNguoiChoiCoDen td, #tblNguoiChoiCoDo td{
+	margin:auto;
+	text-align:center;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:lighter;
+	font-size:40px;
+	min-height: 100%;
+}
+#tblNguoiChoiCoDo{
+   	width : 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+#tblNguoiChoiCoDen {
+ 	width : 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120%;
+}
+#PointCoDo
+{
+color: #FF0000;
+}

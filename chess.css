@@ -1,0 +1,24 @@
+body{
+	background-color: #DDDDDD
+}
+p{
+	text-align: center;
+	font-size: 50px;
+	margin-top:5%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: lighter;
+	color: #3333FF;
+}
+div{
+	text-align: center;
+}
+.btn
+{	margin-top: 4%; 
+	text-align: center;
+	padding: 20px 40px 20px 40px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:lighter;
+	font-size:20px;
+	background-color: #000011;
+	color: #FF99FF;
+}
