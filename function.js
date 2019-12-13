@@ -1,7 +1,7 @@
 // Doi Avatar Di Trc
 function LuotDi()
 {
-	var Temp = document.getElementById("iCoDen").src;
+	let Temp = document.getElementById("iCoDen").src;
 	document.getElementById("iCoDen").src = document.getElementById("iCoDo").src;
 	document.getElementById("iCoDo").src = Temp;
 }
@@ -46,8 +46,8 @@ function DoiMau(X, Y)
 }
 
 function GetColor(id){
-	var rgb = document.getElementById(id).style.backgroundColor;
-	var Temp = rgb.substring(rgb.indexOf('(') + 1, rgb.length - 1);
+	let rgb = document.getElementById(id).style.backgroundColor;
+	let Temp = rgb.substring(rgb.indexOf('(') + 1, rgb.length - 1);
 	while(Temp.indexOf(' ') != -1)
 	{
 		Temp = Temp.replace(" ", "");
@@ -57,8 +57,8 @@ function GetColor(id){
 // Lay Ten Quan Co
 function GetName(id){
 	try{
-		var src = document.getElementById("i" + id).src;
-		var Ten = src.substring(src.lastIndexOf('/') + 1, src.length - 4);
+		let src = document.getElementById("i" + id).src;
+		let Ten = src.substring(src.lastIndexOf('/') + 1, src.length - 4);
 		return Ten;
 	}catch(err){
 		return err;
@@ -70,20 +70,20 @@ function isChieuVua(Name){
 }
 // Xac Dinh Xem Co Phai Quan Co Do K
 function isCoDo(X, Y){
-	var Temp = GetName(X.toString() + Y);
+	let Temp = GetName(X.toString() + Y);
 	Temp = Temp.substring(Temp.indexOf('_') + 1 , Temp.length);
 	return Temp.localeCompare("Do") == 0 ? true : false;
 }
 // Xac Dinh Xem Co Phai Quan Co Den K
 function isCoDen(X, Y){
-	var Temp = GetName(X.toString() + Y);
+	let Temp = GetName(X.toString() + Y);
 	Temp = Temp.substring(Temp.indexOf('_') + 1 , Temp.length);
 	return Temp.localeCompare("Den") == 0 ? true : false;
 }
 // Xac Dinh Xem Co Phai Quan Co Rong K
 function isRong(X, Y)
 {
-	var Temp = GetName(X.toString() + Y);
+	let Temp = GetName(X.toString() + Y);
 	Temp = Temp.substring(Temp.indexOf('_') + 1 , Temp.length);
 	return Temp.localeCompare("Rong") == 0 ? true : false;
 }
@@ -104,7 +104,3 @@ function DiChuyen(id, idMoi){
 	document.getElementById("i" + id).src = CoDen.Rong;
 	return true;
 }	
-// Phong Hau 
-function PhongHau () {
-	
-}
