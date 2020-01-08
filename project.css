@@ -25,6 +25,7 @@ body{
 	margin:auto;
 	height: 600px;
 	width: 600px;
+	cursor: url(cursor.png) , auto;
 }
 
 #BanCo td {
