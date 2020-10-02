@@ -1,4 +1,4 @@
-var CoDen = {
+let CoDen = {
 	Tot: 'Img/Tot_Den.png',
 	Tuong: 'Img/Tuong_Den.png',
 	Ma: 'Img/Ma_Den.png',
@@ -14,8 +14,7 @@ var CoDen = {
 	Hau_Name: 'Hau_Den',
 	Vua_Name: 'Vua_Den'
 }
-
-var CoDo = {
+let CoDo = {
 	Tot: 'Img/Tot_Do.png',
 	Tuong: 'Img/Tuong_Do.png',
 	Ma: 'Img/Ma_Do.png',
@@ -31,8 +30,7 @@ var CoDo = {
 	Hau_Name: 'Hau_Do',
 	Vua_Name: 'Vua_Do'
 }
-
-var Mau = {
+let Mau = {
 	Trang: "#111111",
 	Den: "170,182,155",
 	NuocDi: "246,205,97"

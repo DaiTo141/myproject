@@ -28,7 +28,7 @@ function DatCo ()
  		document.getElementById("i" + i.toString() + j.toString()).src = "Img/Rong.png";
  		}
  	}
-//Dat Quan Den}
+//Dat Quan Den
  	for (let i = 1; i < 9; i++) {
  		document.getElementById("i7"+i.toString()).src="Img/Tot_Den.png"
  	}
@@ -45,7 +45,6 @@ function DatCo ()
 for (let i = 1; i < 9; i++) {
  		document.getElementById("i2"+i.toString()).src="Img/Tot_Do.png"
  	}
-
 	document.getElementById("i11").src="Img/Xe_Do.png"
 	document.getElementById("i12").src="Img/Ma_Do.png"
 	document.getElementById("i13").src="Img/Tuong_Do.png"

@@ -41,9 +41,7 @@ function Ma(id){
 			if(!isBien(iX - 2, iY + 1) && !isCoDo(iX - 2, iY + 1)){
 				DoiMau(iX - 2, iY + 1);
 			}
-			
 		break;
-		
 		case false:
 			if(!isBien(iX -2, iY -1) && !isCoDen(iX - 2, iY - 1)){
 				DoiMau(iX -2, iY - 1);
